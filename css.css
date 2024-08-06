@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.logo-img img {
+    max-width: 162px;
+    max-height: 24px;
+}
+
+.inside-cont {
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    width: 100%;
+    align-items: center;
+}
+
+.serachbar img {
+    max-width: 22px;
+    max-height: 22px;
+}
+
+.search-box {
+    gap: 20px;
+    display: flex;
+    padding: 0 30px;
+    width: 360px;
+    width: fit-content;
+    height: 45px;
+    border-radius: 21px;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.search-box p {
+    max-height: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #5C5C5C;
+    font-family: IBM Plex Sans;
+
+}
+
+.create-account {
+    display: flex;
+    color: #2E2E2E;
+    font-weight: 500;
+    line-height: 20.8px;
+    font-size: 16px;
+
+}
+.create-account button{
+            background: #2F6CE5;
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            padding: 2px 15px;
+            border: none;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 19.5px;
+            cursor: pointer;
+}
+
+.its-free {
+    color: white;
+    font-weight: 700;
+}
+
+/* header {
+    width: 100%;
+    height: 440px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url(computer.png);
+    background-size: cover;
+        background-position: center center;
+            Center the background image
+
+   
+} */
+.computer-div {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+
+}
+
+.computer-img img {
+    width: 100%;
+    height: auto;
+}
+
+.pages {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 23.4px;
+}
+
+.computer-engineering {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.section-outer {
+    /* background-color: red; */
+    width: 75%;
+    min-height: 90vh;
+    margin: auto;
+
+
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.inside-section {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+.inside-section div {
+    color: #000000;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400;
+}
+
+.all-posts {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+
+}
+.all-post-div{
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    /* background-color: green; */
+    height: auto;
+}
+.all-post-div-sec{
+    display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 20px;
+}
+
+.inner-post{
+    width: 100%;
+        border: 1px solid #C4C4C4;
+            border-radius: 4px;
+    /* background-color: red; */
+}
+.inner-post-2{
+    display: flex;
+        gap: 20px;
+        flex-direction: column;
+        height: auto;
+}
+.inner-post-1{
+    gap: 20px;
+
+}
+.all-post-div{
+    margin-top: 30px;
+}
+.post-heading{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.52px;
+}
+.post-about{
+    color: #5C5C5C;
+    font-size: 19px;
+    font-weight: 400px;
+    line-height: 25.49px;
+}
+.location{
+    width: 30%;
+}
+
+.write-button {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background: #EDEEF0;
+    padding: 2px 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.join-group-button {
+    gap: 10px;
+    background: #2F6CE5;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.outer-section {
+    margin-top: 30px;
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    gap: 30px;
+}
+
+
+
+.profile-name{
+    font-size: 18px;
+        font-weight: 600;
+        line-height: 23.4px;
+        color: #000000;
+}
+.calender-p{
+    font-weight: 500;
+        font-size: 15px;
+        line-height: 19.5px;
+}
+
+.location-name{
+    font-weight: 500;
+        font-size: 15px;
+        line-height: 19.5px;
+}
+.article{
+    line-height: 23.4px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000
+}
+.mobile-visible{
+    display: flex;
+    justify-content: end;
+   
+}
+.mobile-visible .create-account button{
+    font-size: 12px;
+  
+}
+.sticky-div{
+    position: fixed;
+    top: 90vh;
+    display: none;
+    /* left: 80%; */
+            right: 0;
+
+}
+input:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    border-radius: 8px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    /* background-color: #5cb85c; */
+    color: white;
+}
+
+.modal-body {
+    /* padding: 2px 16px; */
+}
+
+.modal-footer {
+    /* padding: 2px 16px; */
+    /* background-color: #5cb85c; */
+    color: white;
+}
+
+
+@media screen and (min-width:730px)  and (max-width:1022px){
+    .sticky-div{
+        display: none;
+    }
+    .all-post-div-sec{
+        width: 100%;
+    }
+        
+          /* .computer-div {
+              position: absolute;
+              top: 100px;
+              left: 200px;
+          } */
+    .computer-div {
+        
+        top: 210px;
+        left: 100px;
+    }
+
+        .inside-section p{
+            font-size: 10px;
+
+        }
+
+        .buttons-div button{
+            font-size: 10px;
+
+        }
+                .all-post-div{
+                    gap: 30px;
+                }
+
+
+}
+@media screen and (min-width:400px) and (max-width:729px) {
+    .computer-div {
+            top: 120px;
+            left: 80px;
+        }
+}
+
+@media screen and  (max-width: 730px) {
+    body{
+        overflow-x:hidden ;
+    }
+
+        .computer-div {
+            top: 55px;
+            left: 16px;
+        }
+
+
+        
+    .sticky-div{
+        display: block;
+        right: 0;
+
+    }
+    .create-account {
+            display: block;
+        }
+    .location-name{
+        font-size: 12px;
+    }
+    .calender-p{
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+    .inner-post-2{
+        gap: 8px;
+    }
+    .profile-name{
+        font-size: 13px;
+       line-height: 16.9px;
+    }
+    .post-about{
+        font-size: 14px;
+
+    }
+    .article{
+        font-size: 14px;
+    }
+    .post-heading{
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    .all-post-div-sec {
+            width: 100%;
+        }
+    .section-outer{
+        width: 100%;
+    }
+    .location{
+        display: none;
+    }
+    .section{
+        background-color: red;
+        display: none;
+    }
+    .outer-container{
+        display: none;
+    }
+   
+        .computer-engineering {
+            font-size: 12px;
+            line-height: 10px;
+        }
+    
+        .pages {
+            font-size: 10px;
+        }
+}
+/* @media screen and (min-width: 730px) {
+    .computer-div {
+            top: 55px;
+            left: 16px;
+        }
+
+} */
